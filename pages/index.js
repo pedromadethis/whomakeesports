@@ -123,7 +123,7 @@ export default function Home({ designers, filters }) {
       }}
     >
       <Head>
-        <title>Who Make Esports</title>
+        <title>Who Makes Esports</title>
         <link id="favicon" rel="alternate icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -179,7 +179,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
   return ( 
     <div className={className} onClick={onClick}>
       <Nav />
-      <Title className="title m0 p0" text="Who&nbsp;Make*Esports" />
+      <Title className="title m0 p0" text="Who&nbsp;Makes*Esports" />
 
       <motion.div
         initial={{ opacity: 0 }}

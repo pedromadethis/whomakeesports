@@ -27,7 +27,7 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Who Make Esports | About</title>
+        <title>Who Makes Esports | About</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Who&nbsp;make&nbsp;esports"
+        text="Who&nbsp;makes&nbsp;esports"
         noAnimation
       />
 
@@ -64,22 +64,12 @@ export default function Home({ designers }) {
             <Link href="/nominate">
               <a className="link">fill out this form</a>
             </Link>{" "}
-            with their information and a few words about why you're nominating
-            them. You can choose to link to their portfolio, to their Linkedin,
-            or to other social profiles — any link that you feel best represents
-            how that person is making a difference in the esports. We decided
-            not to collect or display the professional’s photo because we wanted the
-            repository to be less about what someone looks like and more about
-            how they’re making an impact in the industry.
+            with their information and a few words about why you're nominating them. You can choose to link their portfolio, their Linkedin, or to other social profiles — any link that you feel best represents how that person is making a difference in the esports. We decided not to collect or display the professional’s photo because we wanted the repository to be less about what someone looks like and more about how they’re making an impact in esports.
           </p>
 
-          <h3>Why are featuring professional as well?</h3>
+          <h3>Why are these professionals being showcased?</h3>
           <p>
-            We wanted to showcase not only contemporary professionals, but
-            also leverage all the visibility that this project is getting to
-            celebrate the history of esports in our country. Every time you
-            reload the website there’s a new featured profesisonal you can
-            learn more about.
+          This project intends to give visibility and celebrate the behind-the-scene professionals that work very hard for your attention and enjoyement. Every time you reload the website there’s a new featured profesisonal you can learn more about.
           </p>
 
           <h3>How did you come up with this idea?</h3>
@@ -147,7 +137,7 @@ export default function Home({ designers }) {
 
           <h3>How did you build this?</h3>
           <p>
-            Who make Esports is{" "}
+            Who makes Esports is{" "}
             <a
               className="link"
               target="_blank"
@@ -207,14 +197,12 @@ export default function Home({ designers }) {
           <p>
             If you’ve been added to the directory and would like to opt-out or
             make an edit to your profile, please send us a message at
-            hello@whomakeesports.
+            hello@whomakesesports.
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
-            We update this website once a week to include new names. To ensure a
-            healthy gender balance on this website, some nominations might take
-            longer to appear. In the meantime, try nominating a designer who
-            identifies as a woman or non-binary.
+            We update this website once a week to include new names. Some nominations might take
+            longer to appear.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ export default function Nominate({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Who Make Esports | Nominate</title>
+        <title>Who Makes Esports | Nominate</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
