@@ -186,8 +186,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-      >
-        <div style="position: absolute; right: 0px; top: 0px; overflow: hidden;"><img href="https://i.imgur.com/lgOP68W.png"></img></div>
+      >        
         <table className="large tableContent" cellSpacing="0">
           <thead id="tableHeader" ref={tableHeaderRef}>
             <tr>
