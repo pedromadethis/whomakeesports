@@ -193,14 +193,11 @@ export default function Home({ designers }) {
         <div className="col-right">
           <h3>How can I remove my name?</h3>
           <p>
-            If you’ve been added to the directory and would like to opt-out or
-            make an edit to your profile, please send us a message at
-            hello@whomakesesports.com.
+          If you’ve been added to the directory and would like to opt-out or make an edit to your profile, please send us a message at hello@whomakesesports.com.
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
-            We update this website once a week to include new names. Some nominations might take
-            longer to appear.
+          We update this website once a week to include new names. Some nominations might take longer to appear as we have to validate and verify all the information beforehand
           </p>
         </div>
 
