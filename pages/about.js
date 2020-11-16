@@ -27,7 +27,7 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | About</title>
+        <title>Who Make Esports | About</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -51,7 +51,7 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
+          <motion.span variants={item}>Esports Professionals to</motion.span>{" "}
           <motion.span variants={item}>the world. The goal</motion.span>{" "}
           <motion.span variants={item}>is to inspire new</motion.span>{" "}
           <motion.span variants={item}>designers to diversify</motion.span>{" "}
@@ -68,26 +68,26 @@ export default function Home({ designers }) {
         <div className="col-left">
           <h3>How can I nominate someone?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
-            the design industry, please{" "}
+            If you know a Esports professional whose work or voice is valuable to
+            the esports industry, please{" "}
             <Link href="/nominate">
               <a className="link">fill out this form</a>
             </Link>{" "}
             with their information and a few words about why you're nominating
             them. You can choose to link to their portfolio, to their Linkedin,
             or to other social profiles — any link that you feel best represents
-            how that person is making a difference in the industry. We decided
-            not to collect or display the designer’s photo because we wanted the
+            how that person is making a difference in the esports. We decided
+            not to collect or display the professional’s photo because we wanted the
             repository to be less about what someone looks like and more about
             how they’re making an impact in the industry.
           </p>
 
-          <h3>Why are featuring artists as well?</h3>
+          <h3>Why are featuring professional as well?</h3>
           <p>
-            We wanted to showcase not only contemporary Brazilian design, but
+            We wanted to showcase not only contemporary professionals, but
             also leverage all the visibility that this project is getting to
-            celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
+            celebrate the history of esports in our country. Every time you
+            reload the website there’s a new featured profesisonal you can
             learn more about.
           </p>
 
@@ -96,6 +96,11 @@ export default function Home({ designers }) {
             We didn’t. This project is inspired by our fantastic sibling sites:
           </p>
           <ul>
+          <li>
+              <a className="link" href="https://brazilianswho.design/">
+                Brazilians Who Design
+              </a>
+            </li>
             <li>
               <a className="link" href="https://womenwho.design/">
                 Women Who Design
@@ -151,11 +156,11 @@ export default function Home({ designers }) {
 
           <h3>How did you build this?</h3>
           <p>
-            Brazilians Who Design is{" "}
+            Who make Esports{" "}
             <a
               className="link"
               target="_blank"
-              href="https://github.com/zehfernandes/brazilianswhodesign"
+              href="https://github.com/pedromadethis/whomakeesports"
             >
               open source
             </a>{" "}
@@ -200,18 +205,8 @@ export default function Home({ designers }) {
           <h3>Who’s behind this?</h3>
           <ul>
             <li>
-              <a className="link" href="https://twitter.com/zehf">
-                Zeh Fernandes
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://twitter.com/fabriciot">
-                Fabricio Teixeira
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://uxdesign.cc/">
-                UX Collective
+              <a className="link" href="https://twitter.com/pedromadethis">
+                Pedro Andrade
               </a>
             </li>
           </ul>
@@ -221,7 +216,7 @@ export default function Home({ designers }) {
           <p>
             If you’ve been added to the directory and would like to opt-out or
             make an edit to your profile, please send us a message at
-            hello@uxdesign.cc.
+            hello@whomakeesports.
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
