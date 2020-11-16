@@ -49,9 +49,8 @@ export default function Home({ designers }) {
         exit="hidden"
       >
         <p className="f1 extend">
-          <motion.span variants={item}>place to showcase</motion.span>{" "}
-          <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Esports Professionals</motion.span>{" "}
+          <motion.span variants={item}>is a place to showcase</motion.span>{" "}
+          <motion.span variants={item}>the work of Esports Professionals</motion.span>{" "}
           <motion.span variants={item}>to the world.</motion.span>{" "}
         </p>
       </motion.div>
