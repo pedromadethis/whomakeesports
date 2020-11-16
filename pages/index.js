@@ -199,7 +199,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                ORG / COmpany <FilterSVG />
+                ORG / Company <FilterSVG />
               </td>
               <td
                 className="thsize-aux filterTable"
