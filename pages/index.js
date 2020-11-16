@@ -178,7 +178,6 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
 
   return (
     <div className={className} onClick={onClick}>
-      <div style="position: absolute; right: 0px; top: 0px; overflow: hidden;"><img href="https://i.imgur.com/lgOP68W.png"></img></div>
       <Nav />
 
       <Title className="title m0 p0" text="Who&nbsp;Make*Esports" />
@@ -188,6 +187,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
+        <div style="position: absolute; right: 0px; top: 0px; overflow: hidden;"><img href="https://i.imgur.com/lgOP68W.png"></img></div>
         <table className="large tableContent" cellSpacing="0">
           <thead id="tableHeader" ref={tableHeaderRef}>
             <tr>
