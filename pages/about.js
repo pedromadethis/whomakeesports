@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Brazilians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Who&nbsp;make*esports"
         noAnimation
       />
 
@@ -51,10 +51,8 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Esports Professionals to</motion.span>{" "}
-          <motion.span variants={item}>the world. The goal</motion.span>{" "}
-          <motion.span variants={item}>is to inspire new</motion.span>{" "}
-          <motion.span variants={item}>professionals to diversify.</motion.span>{" "}
+          <motion.span variants={item}>Esports Professionals</motion.span>{" "}
+          <motion.span variants={item}>to the world.</motion.span>{" "}
         </p>
       </motion.div>
 
