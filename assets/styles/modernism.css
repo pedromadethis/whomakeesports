@@ -38,6 +38,7 @@ h1,
   letter-spacing: -0.03em;
   line-height: 100%;
   font-weight: 500;
+  font-feature-settings: "ss08" on, "ss02" on, "ss01" on, "salt" on, "cpsp" on;
 }
 
 /* Utils 
@@ -171,7 +172,7 @@ a.link:after {
 }
 .sticky tr {
   position: fixed;
-  width: 81vw;
+  width: 83vw;
   background: #1b1b1b;
   padding: 1.5rem 0 1rem 0;
   display: table;
