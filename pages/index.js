@@ -180,7 +180,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Who&nbsp;make*esports" />
+      <Title className="title m0 p0" text="Who&nbsp;Make*Esports" />
 
       <motion.div
         initial={{ opacity: 0 }}
