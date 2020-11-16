@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #1b1b1b;
+  background: #101010;
 
   color: #e3e3e3;
   font-weight: 500;
@@ -18,9 +18,10 @@ body {
 }
 
 .container {
-  width: 95vw;
+  width: 65vw;
   margin: 3rem auto;
   position: relative;
+  background: #1b1b1b;
 }
 
 a {
