@@ -179,14 +179,14 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
   return (
     <div className={className} onClick={onClick}>
       <Nav />
-
+      <div style="position: absolute; right: 0px; top: 0px; overflow: hidden;"><img href="https://i.imgur.com/lgOP68W.png"></img></div>
       <Title className="title m0 p0" text="Who&nbsp;Make*Esports" />
 
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-      >        
+      >
         <table className="large tableContent" cellSpacing="0">
           <thead id="tableHeader" ref={tableHeaderRef}>
             <tr>
