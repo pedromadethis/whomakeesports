@@ -73,7 +73,7 @@ table tbody tr {
 }
 
 table tbody tr:hover {
-  background: #eaeaea;
+  background: #f4f4f4;
 }
 
 /* Rethink is the best aproch */
@@ -130,7 +130,7 @@ table tbody tr:last-child td {
 }
 
 a.link {
-  --color: #000;
+  color: #000;
   position: relative;
   color: var(--color);
   text-decoration: none;
