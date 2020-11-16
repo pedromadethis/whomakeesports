@@ -180,7 +180,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Who Make Esports" />
+      <Title className="title m0 p0" text="Who&nbsp;make*esports" />
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -209,7 +209,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Area <FilterSVG />
+                Expertise <FilterSVG />
               </td>
               <td className="thsize-link"></td>
             </tr>
