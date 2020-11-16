@@ -148,7 +148,7 @@ export default function Home({ designers }) {
 
           <h3>How did you build this?</h3>
           <p>
-            Who make Esports{" "}
+            Who make Esports is{" "}
             <a
               className="link"
               target="_blank"
