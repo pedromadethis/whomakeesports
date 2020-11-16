@@ -10,6 +10,8 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #1b1b1b;
+  background-image: url("/public/icon-bg.png");
+  background-repeat: no-repeat;
   color: #e3e3e3;
   font-weight: 500;
   margin: 0;
