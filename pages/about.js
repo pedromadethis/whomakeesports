@@ -178,7 +178,7 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Fabio Massa, for the help of gathering the translation.
+            Thanks to Fabio Massa, for the help of the translation.
           </p>
 
           <h3>Who’s behind this?</h3>
@@ -195,7 +195,7 @@ export default function Home({ designers }) {
           <p>
             If you’ve been added to the directory and would like to opt-out or
             make an edit to your profile, please send us a message at
-            hello@whomakesesports.
+            hello@whomakesesports.com.
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
