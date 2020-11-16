@@ -9,8 +9,8 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #000;
-  color: #fff;
+  background: #ffffff;
+  color: #000;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -56,7 +56,7 @@ table {
 table tbody td,
 table thead td {
   border: none;
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #eaeaea;
 }
 
 table.large thead {
@@ -73,7 +73,7 @@ table tbody tr {
 }
 
 table tbody tr:hover {
-  background: #111111;
+  background: #eaeaea;
 }
 
 /* Rethink is the best aproch */
@@ -117,7 +117,7 @@ table tbody tr:last-child td {
 }
 
 .arrowback {
-  color: #fff;
+  color: #000;
   font-size: 3rem;
   text-decoration: none;
   cursor: pointer;
@@ -130,7 +130,7 @@ table tbody tr:last-child td {
 }
 
 a.link {
-  --color: #fff;
+  --color: #000;
   position: relative;
   color: var(--color);
   text-decoration: none;
