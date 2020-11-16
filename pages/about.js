@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Who&nbsp;make*esports"
+        text="Who&nbsp;make&nbsp;esports"
         noAnimation
       />
 
@@ -188,9 +188,7 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
+            Thanks to Fabio Massa, João Pedro, Marianna Motta, Vinícius Biazio, Leonardo Daniel, Wesley Pereira, for the help of gathering the initial list of designers.
           </p>
 
           <h3>Who’s behind this?</h3>
