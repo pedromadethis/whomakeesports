@@ -178,9 +178,7 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
+            Thanks to Fabio Massa, for the help of gathering the translation.
           </p>
 
           <h3>Who’s behind this?</h3>
