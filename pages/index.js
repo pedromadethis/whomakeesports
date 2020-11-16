@@ -209,7 +209,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Expertise <FilterSVG />
+                Area <FilterSVG />
               </td>
               <td className="thsize-link"></td>
             </tr>
