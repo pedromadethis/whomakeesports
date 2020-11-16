@@ -1,4 +1,4 @@
-# Brazilians Who Design
+# Who Make Esports
 
 ![](https://www.dropbox.com/s/x5udk39ad57ayp5/brazilianswhodesignthumb.png?raw=1)
 
@@ -37,6 +37,6 @@ In your browser, open `localhost:3000`.
 
 ### Deploy at vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https%3A%2F%2Fgithub.com%2Fzehfernandes%2Fbrazilianswhodesign)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/pedromadethis/whomakeesports)
 
 
