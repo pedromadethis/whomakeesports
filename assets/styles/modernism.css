@@ -18,11 +18,11 @@ body {
 }
 
 .container {
-  width: 65vw;
-  margin: 3rem auto;
+  width: 85vw;
+  margin: 5rem auto;
   position: relative;
   background: #1b1b1b;
-}
+  padding: 0 2rem 2rem 2rem;
 
 a {
   text-decoration: none;
@@ -104,7 +104,7 @@ table tbody tr:last-child td {
 
 .auxNav {
   position: absolute;
-  top: 0;
+  top: 1%;
 }
 
 .extend span {
