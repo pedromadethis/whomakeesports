@@ -178,6 +178,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
 
   return (
     <div className={className} onClick={onClick}>
+      <div style="position: absolute; right: 0px; top: 0px; overflow: hidden;"><div class="jsx-2285323908 pattern  "><svg viewBox="0 0 8010 8010"><path fill="#AE2F21" d="M0 0H8010V8010H0z"></path><g class="hideshape"><path fill-rule="evenodd" d="M4009.42 8018.85c2214.35 0 4009.43-1795.08 4009.43-4009.43C8018.85 1795.08 6223.77 0 4009.42 0 1795.08 0 0 1795.08 0 4009.42c0 2214.35 1795.08 4009.43 4009.42 4009.43zm2698.66-1310.78V1310.76H1310.77v5397.31h5397.31z" clip-rule="evenodd"></path><path d="M4243.71 6698.04c1380.72-118.74 2464.37-1277.13 2464.37-2688.63 0-1490.42-1208.23-2698.65-2698.66-2698.65-1490.42 0-2698.65 1208.23-2698.65 2698.65 0 7.38.03 14.75.09 22.11H0V8010h4243.71V6698.04z"></path></g></svg></div></div>
       <Nav />
 
       <Title className="title m0 p0" text="Who&nbsp;Make*Esports" />
