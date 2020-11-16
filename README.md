@@ -1,6 +1,6 @@
 # Who Make Esports
 
-![](https://www.dropbox.com/s/x5udk39ad57ayp5/brazilianswhodesignthumb.png?raw=1)
+![](https://previews.dropbox.com/p/thumb/AA9aJ2AgROZVxzwe5noT-pW4g_LE12TMjDIzzf74SBtV88nvLrV7oxr2zE2-LPDqx1s8NewoVhJ_f3UngkllO9g-szUCjaB70v7zwWO3peMIZ20zA_Tw2MeHhQNhS7jf-4n7njkFzfAWBsa5gc4KBFKniDTiWf7C3nV_f5HO2NjMliKGww7HyuDGrA8gFY4PywV2BVq1gIgS64xCKLY4JdP5v_suuimBJoRFqQC5zpJuhAusL0Nd7B0PpK7Wg8lqlXiT1359evRsOWmBPEoxmE3b46An5mPMgCYWUl9A1wdRRmQXfeVwlKkPYEJlbgi9a5CE-LXTiDgINU1QNZQWe8uVaLTwC37hbeNBaonvoruxkg/p.jpeg?fv_content=true&size_mode=5)
 
 The website is built using Google Spreedsheet, [Next.js](https://nextjs.org/) and deployed at [Vercel](https://vercel.com/).
 
