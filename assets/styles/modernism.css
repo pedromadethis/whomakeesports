@@ -22,11 +22,11 @@ body {
 }
 
 .container {
-  width: 85vw;
+  width: 90vw;
   margin: 5rem auto;
   position: relative;
   background: #1b1b1b;
-  padding: 0 2rem 2rem 2rem;
+  padding: 2rem 5rem 2rem 5rem;
 
 }
 a {
