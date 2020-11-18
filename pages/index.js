@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://whomakesesports.com/";
+      : "https://whomakeesports.vercel.app";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
@@ -123,7 +123,7 @@ export default function Home({ designers, filters }) {
       }}
     >
       <Head>
-        <title>Brazilians Who Design</title>
+        <title>Who Makes Esports</title>
         <link id="favicon" rel="alternate icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -176,11 +176,10 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     };
   }, []);
 
-  return (
+  return ( 
     <div className={className} onClick={onClick}>
       <Nav />
-
-      <Title className="title m0 p0" text="Brazilians*who&nbsp;design" />
+      <Title className="title m0 p0" text="Who&nbsp;Makes*Esports" />
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -218,7 +217,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
             <tbody>
               {designers.map((d, i) => (
                 <tr key={`${d.name}-${i}`}>
-                  <td><a href={d.link} target='_blank'>{d.name}</a></td>
+                  <td><a href={d.link} target="_blank">{d.name}</a></td>
                   <td className="thsize-aux dn"><a href={d.link}>{d.location}</a></td>
                   <td className="thsize-aux"><a href={d.link}>{d.expertise}</a></td>
                   <td className="thsize-link"><a href={d.link}>→</a></td>
