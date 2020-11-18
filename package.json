@@ -1,6 +1,6 @@
 {
   "name": "whomakeesports",
-  "version": "0.0.1a",
+  "version": "0.1.3a",
   "private": true,
   "scripts": {
     "dev": "next dev",

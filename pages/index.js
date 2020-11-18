@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://whomakeesports.vercel.app";
+      : "https://whomakeesports.com";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
@@ -198,7 +198,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Organization / Company <FilterSVG />
+                Organization<FilterSVG />
               </td>
               <td
                 className="thsize-aux filterTable"
