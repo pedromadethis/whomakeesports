@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://whomakesesports.com";
+      : "https://whomakesesports.com/";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
@@ -176,10 +176,11 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     };
   }, []);
 
-  return ( 
+  return (
     <div className={className} onClick={onClick}>
       <Nav />
-      <Title className="title m0 p0" text="Who&nbsp;Makes*Esports" />
+
+      <Title className="title m0 p0" text="Brazilians*who&nbsp;design" />
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -198,7 +199,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Organization<FilterSVG />
+                Organization <FilterSVG />
               </td>
               <td
                 className="thsize-aux filterTable"
