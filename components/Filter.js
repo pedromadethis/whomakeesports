@@ -66,7 +66,7 @@ export default function Filter({
           background: #fff;
           color: #000;
           padding: 2.5rem;
-          min-height: 100vh;
+          height: 100vh;
         }
 
         .close {
