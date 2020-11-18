@@ -103,7 +103,6 @@ function FilterItem({ label, active, onClick }) {
 
         .check {
           width: 1.7rem;
-          height: 1.7rem;
           /*background: #fff;
           border-radius: 6px; */
         }
