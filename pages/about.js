@@ -197,7 +197,7 @@ export default function Home({ designers }) {
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
-          We update this website once a week to include new names. Some nominations might take longer to appear as we have to validate and verify all the information beforehand
+          We update this website once a week to include new names. Some nominations might take longer to appear as we have to validate and verify all the information beforehand.
           </p>
         </div>
 
