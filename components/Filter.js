@@ -30,7 +30,6 @@ export default function Filter({
         top: 0,
         right: 0,
         width: "100%",
-        height: "100vh",
         maxWidth: "420px",
         overflowY: "scroll",
       }}
