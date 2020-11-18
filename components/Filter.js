@@ -98,7 +98,7 @@ function FilterItem({ label, active, onClick }) {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 0.rem 0;
+          margin: 0.1rem 0;
         }
 
         .check {
