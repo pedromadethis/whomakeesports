@@ -30,7 +30,7 @@ export default function Filter({
         top: 0,
         right: 0,
         width: "100%",
-        height: "100%",
+        height: "100vh",
         maxWidth: "420px",
         overflowY: "scroll",
       }}
@@ -68,6 +68,7 @@ export default function Filter({
           color: #000;
           padding: 2.5rem;
           min-height: 100vh;
+          height: 100vh;
         }
 
         .close {
@@ -99,7 +100,7 @@ function FilterItem({ label, active, onClick }) {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 0.2rem 0;
+          margin: 0.rem 0;
         }
 
         .check {
