@@ -68,13 +68,11 @@ export default function Filter({
           padding: 2.5rem;
           min-height: 100vh;
         }
-
         .close {
           display: block;
           width: 1.5rem;
           height: 1.5rem;
         }
-
         h3 {
           margin-top: 4rem;
           font-weight: 500;
@@ -94,15 +92,15 @@ function FilterItem({ label, active, onClick }) {
       <style jsx>{`
         .filterItem {
           cursor: pointer;
-          font-size: 1rem;
+          font-size: 1.7rem;
           display: flex;
           justify-content: space-between;
           align-items: center;
           margin: 0.1rem 0;
         }
-
         .check {
           width: 1.7rem;
+          height: 1.7rem;
           /*background: #fff;
           border-radius: 6px; */
         }
