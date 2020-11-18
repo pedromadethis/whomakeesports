@@ -193,7 +193,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
               <td
                 className="thsize-aux dn filterTable"
                 onClick={(e) => {
-                  handleOpenFilter("location");
+                  handleOpenFilter("Organization/Company");
 
                   e.preventDefault();
                 }}
@@ -203,7 +203,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
               <td
                 className="thsize-aux filterTable"
                 onClick={(e) => {
-                  handleOpenFilter("expertise");
+                  handleOpenFilter("Area");
 
                   e.preventDefault();
                 }}
