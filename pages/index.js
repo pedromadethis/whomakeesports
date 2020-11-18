@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://whomakeesports.com";
+      : "https://whomakeesports.vercel.app";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
@@ -208,7 +208,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Expertise <FilterSVG />
+                Area <FilterSVG />
               </td>
               <td className="thsize-link"></td>
             </tr>
